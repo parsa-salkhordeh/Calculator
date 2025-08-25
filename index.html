@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+     <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+     <!--/Font Awesome -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    
+    
+
+    <div class="container">
+
+        <i id="history-icon" class="fa-solid fa-clock"></i> <!--history icon-->
+
+        <div class="input-clear">
+            <input id="result" type="text" placeholder="0" readonly>
+            <i class="fa-solid fa-xmark  clear-btn"></i>
+        </div>
+
+        <!-- operator buttons -->
+        <div class="operators">
+            <button>+</button>
+            <button>-</button>
+            <button>*</button>
+            <button>/</button>
+
+        </div>
+
+        <hr style="margin-top: 3px;">
+        
+        <!-- numbers button -->
+         <div class="numbers">
+            <div class="row">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+            </div>
+
+            <div class="row">
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+            </div>
+
+            <div class="row">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+            </div>
+
+            <div class="row">
+                <button>C</button>
+                <button>0</button>
+                <button>=</button>
+            </div>
+
+
+         </div>
+    </div>
+    <script src="Javascript/calc.js"></script>
+</body>
+</html>
